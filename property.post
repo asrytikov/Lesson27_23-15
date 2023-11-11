@@ -1,4 +1,4 @@
-url=https://www.avito.ru
+url=https://www.avito.ru/samara/avtomobili/tesla-ASgBAgICAUTgtg2umSg?radius=200&searchRadius=200
 categoryId=9
 locationId=653040
 radius=200
@@ -12,3 +12,4 @@ disabledFilters[ids]=byTitle
 disabledFilters[slugs]=bt
 disableByTitle=false
 User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/119.0
+redirects=3
