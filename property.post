@@ -1,0 +1,14 @@
+url=https://www.avito.ru
+categoryId=9
+locationId=653040
+radius=200
+name=tesla
+cd=0
+params[110000]=329303
+verticalCategoryId=0
+rootCategoryId=1
+localPriority=0
+disabledFilters[ids]=byTitle
+disabledFilters[slugs]=bt
+disableByTitle=false
+User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/119.0
