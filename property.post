@@ -1,15 +1,13 @@
-url=https://www.avito.ru/samara/avtomobili/tesla-ASgBAgICAUTgtg2umSg?radius=200&searchRadius=200
-categoryId=9
-locationId=653040
-radius=200
-name=tesla
-cd=0
-params[110000]=329303
-verticalCategoryId=0
-rootCategoryId=1
-localPriority=0
-disabledFilters[ids]=byTitle
-disabledFilters[slugs]=bt
-disableByTitle=false
+Accept=text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8"
+Accept-Encoding=gzip, deflate, br
+Accept-Language=ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3"
+Connection=keep-alive
+Cookie=ring=2aded467tITypl%2F%2BTzI8SU7XItF5g0ad; cookie_cityid=16; cookie_regionid=63; my_geo=63; dr_df=1; segSession=IjYyNjRmZGY1YmRhZGY3MmQwZjhlNjI0MmIxNmQ4MDFjbm90QXV0aDJhZGVkNDY3dElUeXBsXC8rVHpJOFNVN1hJdEY1ZzBhZCJfMTcwNjdkNDQyOTFiODZkY2VjYTJjMDE2MDgwMjg2NzI; _ga_1G91VLKB2K=GS1.1.1699850204.1.1.1699850443.58.0.0; _ga=GA1.1.756129591.1699850205; drom_search_web=3; k6W=eyJhbGciOiJSUzI1NiIsImtpZCI6ImRMQ2MxZUFvdV9kZkwteFVWMmdiWHlUM0JnWnAyYVNFSS00UGdIVzlkNEkiLCJ0eXAiOiJKV1QifQ.eyJleHAiOjE2OTk4NTM4MTMsImtpZCI6ImRMQ2MxZUFvdV9kZkwteFVWMmdiWHlUM0JnWnAyYVNFSS00UGdIVzlkNEkiLCJwcm9qZWN0IjoiZHJvbSIsInN1YiI6InI6MmFkZWQ0Njd0SVR5cGwvK1R6SThTVTdYSXRGNWcwYWQifQ.rvvbwYPRIsHmPf3iq44UfApTiamKGyGmdWtpT1OHq5yqnOq2h1iU-dL_ai1jNKYRWaBjyviwu2ykqUrUWmpfM9KLh94COJggyZjI2ZTqxwf_YmsbDC8APRD6oq3DVyG9xUFXYLIYrz-KeyQyYwEGqj6UYVdiv52su1lstSG9IpM
+Host=auto.drom.ru
+url=https://auto.drom.ru/all/
+Sec-Fetch-Dest=document
+Sec-Fetch-Mode=navigate
+Sec-Fetch-Site=same-origin
+Sec-Fetch-User=?1
+Upgrade-Insecure-Requests=1
 User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/119.0
-redirects=3

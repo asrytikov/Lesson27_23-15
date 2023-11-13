@@ -71,15 +71,19 @@ public class Main {
         StringBuilder response = new StringBuilder();
         try (Scanner in = new Scanner(connection.getInputStream(), enc)){
             while (in.hasNextLine()){
-                response.append(in.nextLine());
+                String next = in.nextLine();
+                //if (next.contains("Tesla")){
+                response.append(/*in.nextLine()*/next);
                 response.append("\n");
             }
         }catch (IOException exception){
             InputStream err = connection.getErrorStream();
             if (err == null) throw exception;
             try(Scanner scanner = new Scanner(err)){
-                response.append(scanner.nextLine());
-                response.append("err\n");
+                while (scanner.hasNextLine()) {
+                    response.append(scanner.nextLine());
+                    response.append("\n");
+                }
             }
         }
         return response.toString();
